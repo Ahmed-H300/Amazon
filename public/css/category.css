@@ -1,0 +1,153 @@
+/* public/css/category.css (or your preferred location) */
+
+/* Styling for the category table */
+.category-table {
+    border-collapse: collapse;
+    width: 100%; /* Set the table width to 100% to make it dynamic */
+    margin: 0 auto;
+}
+
+.category-table th,
+.category-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.category-table th {
+    background-color: #f2f2f2;
+}
+
+.category-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.category-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Styles for buttons */
+.btn-show,
+.btn-delete{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-show,
+.btn-delete {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.btn-show {
+    background-color: #007bff;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+/* public/css/category.css (or your preferred location) */
+
+/* ... previous styles ... */
+
+/* Styles for the "Create" button */
+.btn-create {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px; /* Add margin to separate the button from the table */
+    margin-top: 10px; /* Add margin to separate the button from the table */
+}
+
+.btn-create:hover {
+    background-color: #2980b9;
+}
+
+/* Position the "Create" button */
+.create-button-container {
+    text-align: center;
+    margin-bottom: 20px; /* Add some spacing below the button container */
+}
+
+
+
+.btn-show:hover,
+.btn-delete:hover {
+    opacity: 0.8;
+}
+
+/* ... previous styles ... */
+
+.category-details {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-details h2 {
+    margin-top: 0;
+}
+
+.category-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.btn-edit {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+.category-link {
+    color: #007bff; /* Change to your desired link color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.category-link:hover {
+    color: #0056b3; /* Change to your desired link color on hover */
+    text-decoration: underline;
+}
+
+.product-link {
+    color: #007bff; /* Change to your desired link color */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.product-link:hover {
+    color: #0056b3; /* Change to your desired link color on hover */
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .category-table th,
+    .category-table td {
+        padding: 6px;
+    }
+
+    .category-details {
+        width: 90%;
+    }
+}
